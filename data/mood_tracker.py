@@ -5,7 +5,7 @@ This module provides the core business logic and data management for the mood tr
 It handles storing and managing MoodEntry instances using in-memory storage.
 """
 from typing import List, Optional
-from .models import MoodEntry
+from data.models import MoodEntry
 
 
 class MoodTracker:
